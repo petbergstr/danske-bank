@@ -16,6 +16,7 @@
   --light-color: #c3e0eb;
   --dark-color: #002337;
   --text-color: #131313;
+  --light-text-color: #fff;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
@@ -252,6 +253,7 @@ main > .section:first-of-type {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+  color: var(--text-color);
   margin: 0;
   padding: 40px 0;
 }
@@ -259,6 +261,7 @@ main .section.highlight {
 main .section.dark,
 main .section.darkened {
   background-color: var(--dark-color);
+  color: var(--light-text-color);
   margin: 0;
   padding: 40px 0;
 }
